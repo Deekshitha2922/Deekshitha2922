@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include<string.h>
+void main()
+{
+char a[30];
+printf("enter any word");
+int j;
+gets(a);
+int len=strlen(a)-1;
+for(int i=0,j=len;i<=j;i++,j--)
+{
+    if(a[i]!=a[j])
+    {
+       printf("not a palindrome");
+       return;
+    }
+}#i
+printf("palindrome");
+}
+output:-
+enter any wordamma
+palindrome
+Process returned 10 (0xA)   execution time : 3.251 s
+Press any key to continue
+
+  
