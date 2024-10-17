@@ -15,4 +15,9 @@ void main()
     }
     printf("The number of words is %d",count+1);
 }
+output:-
+Enter the sentencedeekshitha lahari akhila
+The number of words is 3
+Process returned 24 (0x18)   execution time : 46.093 s
+Press any key to continue.
 
