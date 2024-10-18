@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+int fact(int);
+int fact(int a)
+
+{
+    if (a==1)
+        return 1;
+    else
+        return a*fact(a-1);
+}
+void main()
+{
+    int a;
+    printf("enter any integer:");
+    scanf("%d",&a);
+    printf("the factorial is %d",fact(a));
+}
+output:-
+enter any integer:246
+the factorial is 0
+Process returned 18 (0x12)   execution time : 28.419 s
+Press any key to continue.
