@@ -1,0 +1,30 @@
+
+#include<conio.h>
+int prime(int);
+int prime(int a)
+{
+    if(a==1)
+    {
+        return;
+    }
+    int i=2;
+    while(a%i!=0)
+    {
+        i++;
+    }
+    printf("%d\t",i);
+    prime(a/i);
+}
+void main()
+{
+    int a;
+    printf("enter a numner:");
+    scanf("%d",&a);
+    prime(a);
+}
+output:-
+enter a numner:12324566
+2       6162283
+Process returned 1 (0x1)   execution time : 3.689 s
+Press any key to continue.
+
